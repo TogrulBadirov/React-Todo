@@ -1,0 +1,11 @@
+nav{
+    height: 100vh;
+    width: 0px;
+    border: 1px solid black;
+    background-color: red;
+    display: none;
+}
+.active{
+    width: 400px;
+    display: block;
+}

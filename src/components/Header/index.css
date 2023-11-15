@@ -1,0 +1,26 @@
+#header{
+    height: 100vh;
+    background: url('https://preview.colorlib.com/theme/pulse/img/slider/slider-1.jpg.webp');
+    background-repeat: no-repeat;
+    background-position: center  center ;
+    background-size: cover;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.header-container h1{
+    font-size: clamp(3.75rem, 2.9688rem + 4.1667vw, 6.875rem);
+    color: white;
+}
+.header-container h1 span{
+    
+    color: #ffc515;
+}
+.header-container p{
+    text-align: right;
+    color: white;
+    
+}
