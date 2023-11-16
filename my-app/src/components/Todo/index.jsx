@@ -11,6 +11,7 @@ const Todo = () => {
     <>
     <input type="text" value={inputValue} onChange={(e)=>setinputValue(e.target.value)}/>
     <button onClick={handleArr}>add</button>
+
     <ul>
     {todoArr.map((x)=>{
        return (<>

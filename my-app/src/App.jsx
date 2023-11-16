@@ -6,6 +6,8 @@ import ImgSlider from './components/ImgSlider';
 import ToggleNav from './components/ToggleNav';
 import Modall from './components/Modal';
 import Todo from './components/Todo';
+import Weather from './components/Weather';
+import Loading from './components/Loading';
 
 function App() {
   return (
@@ -14,7 +16,13 @@ function App() {
     {/* <ImgSlider/> */}
     {/* <ToggleNav/> */}
     {/* <Modall/> */}
-    <Todo/>
+    {/* <Todo/> */}
+
+    <Navbar/>
+    
+    {/* <Weather/> */}
+
+    <Loading/>
     </>
   );
 }
