@@ -13,7 +13,7 @@ const Loading = () => {
     }, [])
     
   return (
-    <>
+    <>                                          
     <div>
         {isLoading ? (<h1>Loading</h1>):(
             data.map((x)=>{

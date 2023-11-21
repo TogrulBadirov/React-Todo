@@ -8,6 +8,9 @@ import Modall from './components/Modal';
 import Todo from './components/Todo';
 import Weather from './components/Weather';
 import Loading from './components/Loading';
+import Reducer from './components/Reducer';
+import RefTest from './components/RefTest';
+import Tremdyol from './components/Tremdyol';
 
 function App() {
   return (
@@ -17,12 +20,18 @@ function App() {
     {/* <ToggleNav/> */}
     {/* <Modall/> */}
     {/* <Todo/> */}
-
-    <Navbar/>
+    
+    {/* <Navbar/> */}
     
     {/* <Weather/> */}
 
-    <Loading/>
+    {/* <Loading/> */}
+    
+    {/* <Reducer/> */}
+
+    {/* <RefTest/> */}
+
+    <Tremdyol/>
     </>
   );
 }
