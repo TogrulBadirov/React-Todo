@@ -11,6 +11,9 @@ import Loading from './components/Loading';
 import Reducer from './components/Reducer';
 import RefTest from './components/RefTest';
 import Tremdyol from './components/Tremdyol';
+import MultipleNav from './components/MultipleNav';
+import CounterWithHooks from './components/CounterWithHooks';
+import LocalHooks from './components/LocalHooks';
 
 function App() {
   return (
@@ -31,7 +34,11 @@ function App() {
 
     {/* <RefTest/> */}
 
-    <Tremdyol/>
+    {/* <Tremdyol/> */}
+
+    {/* <MultipleNav/> */}
+    {/* <CounterWithHooks/> */}
+    <LocalHooks/>
     </>
   );
 }
