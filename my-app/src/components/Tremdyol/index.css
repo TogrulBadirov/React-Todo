@@ -13,10 +13,32 @@
     height: 250px;
     border: 1px solid;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
 .card p{
     margin: 10px 0;
+}
+.basket{
+    display: flex;
+}
+.basket-card{
+    width: 150px;
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.basket{
+    flex-wrap: wrap;
+
+}
+.whishlist{
+    display: flex;
+    flex-wrap: wrap;
+
 }

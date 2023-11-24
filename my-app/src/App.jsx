@@ -14,6 +14,9 @@ import Tremdyol from './components/Tremdyol';
 import MultipleNav from './components/MultipleNav';
 import CounterWithHooks from './components/CounterWithHooks';
 import LocalHooks from './components/LocalHooks';
+import { Pagination } from 'antd';
+import Paginationn from './components/Pagination';
+import BasketAndWhishlist from './components/BasketAndWhishlist';
 
 function App() {
   return (
@@ -38,7 +41,11 @@ function App() {
 
     {/* <MultipleNav/> */}
     {/* <CounterWithHooks/> */}
-    <LocalHooks/>
+    {/* <LocalHooks/> */}
+
+    {/* <Paginationn/> */}
+
+    <Tremdyol/>
     </>
   );
 }
